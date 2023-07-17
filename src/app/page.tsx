@@ -21,7 +21,7 @@ export default function Home() {
       </header>
 
       <div className="cardArea px-10 pt-5  rotate-90">
-        <div className="card h-[340px] mb-5 w-[530px] bg-gray-700 px-8 pt-14 relative flex flex-col  ">
+        <div className="card h-full mb-5 w-[530px] bg-gray-700 px-8 py-16 relative flex flex-col  ">
           <div className="header">
             <h1 className="font-black text-[#181718] text-[1.975rem]">
               ID Jovem
