@@ -31,3 +31,10 @@ header {
   background-position: center;
   background-size: cover;
 }
+
+.qrCode {
+  border-radius: 20px 0 0 20px;
+  background-image: url("../../public/qr.png");
+  background-size: contain;
+  rotate: 270deg;
+}

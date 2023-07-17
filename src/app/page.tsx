@@ -20,8 +20,8 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="cardArea px-4 pt-5 rotate-90">
-        <div className="card h-[355px] mb-5 w-[500px] bg-gray-700 px-8 pt-14 relative flex flex-col  ">
+      <div className="cardArea px-10 pt-5  rotate-90">
+        <div className="card h-[340px] mb-5 w-[530px] bg-gray-700 px-8 pt-14 relative flex flex-col  ">
           <div className="header">
             <h1 className="font-black text-[#181718] text-[1.975rem]">
               ID Jovem
@@ -59,6 +59,8 @@ export default function Home() {
               </span>
             </div>
           </div>
+
+          <div className="qrCode w-24 h-24 bg-white top-0 right-0 absolute mr-7"></div>
           <span
             className={` ${inter.className} tracking-wider informacoes text-[9px] font-light text-white pt-2`}
           >
@@ -68,7 +70,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="buttonsArea  flex flex-col mt-[150px] py-10 px-10  gap-5  font-light ">
+      <div className="buttonsArea  flex flex-col mt-[180px] py-10 px-10  gap-5  font-light ">
         <span className="w-full bg-[#37995F] justify-center text-center rounded-xl pb-4 pt-6 text-white">
           TROCAR FOTO
         </span>
