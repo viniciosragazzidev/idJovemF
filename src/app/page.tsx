@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col ">
       <header className="flex items-center justify-between px-5 h-24  w-full">
-        <h1 className="font-black text-[#181718] text-[1.975rem]">ID Jovem</h1>
+        <h1 className="font-black text-[#181718] text-4xl">ID Jovem</h1>
 
         <div className="icons flex gap-2 items-center">
           <span className="text-green-500 text-3xl">
