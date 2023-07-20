@@ -38,24 +38,24 @@ export default function Home() {
               />
             </div>
             <div
-              className={` ${inter.className} tracking-wider informacoes text-xs text-white`}
+              className={` ${inter.className} tracking-wider informacoes text-sm text-white`}
             >
               <span className="name ">Marcos Vinicios Ragazzi Araujo</span>
 
               <div className="flex justify-between mt-5">
                 <span className="flex flex-col">
                   24/02/2001
-                  <span className="text-[10px]">Nascimento</span>
+                  <span className="text-[12]">Nascimento</span>
                 </span>
                 <span className="flex flex-col">
                   05/03/2024
-                  <span className="text-[10px]">Valido até</span>
+                  <span className="text-[12]">Valido até</span>
                 </span>
               </div>
 
               <span className="flex flex-col mt-5">
                 16556738425
-                <span className="text-[10px]">NIS</span>
+                <span className="text-[12]">NIS</span>
               </span>
             </div>
           </div>
