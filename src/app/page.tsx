@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col ">
       <header className="flex items-center justify-between px-5 h-24  w-full">
-        <h1 className="font-black text-[#181718] text-4xl">ID Jovem</h1>
+        <h1 className="font-black text-[#181718] text-5xl mb-1">ID Jovem</h1>
 
         <div className="icons flex gap-2 items-center">
           <span className="text-green-500 text-3xl">
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="qrCode w-24 h-24 bg-white top-0 right-0 absolute mr-7"></div>
+          <div className="qrCode w-28 h-28 bg-white top-0 right-0 absolute mr-7"></div>
           <span
             className={` ${inter.className} tracking-wider informacoes text-[9px] font-light text-white pt-2`}
           >

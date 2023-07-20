@@ -23,8 +23,8 @@ header {
   background: linear-gradient(
     90deg,
     rgba(16, 37, 120, 1) 0%,
-    rgba(48, 133, 101, 1) 52%,
-    rgba(215, 170, 2, 1) 100%
+    rgba(48, 133, 101, 1) 46%,
+    rgb(248, 194, 0) 100%
   );
   padding: 0 50px;
   background-image: url("../../public/bottom.png");
