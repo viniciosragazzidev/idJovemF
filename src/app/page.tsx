@@ -23,9 +23,7 @@ export default function Home() {
       <div className="cardArea px-10 pt-5  rotate-90">
         <div className="card h-full mb-5 w-[530px] bg-gray-700 px-8 py-16 relative flex flex-col  ">
           <div className="header">
-            <h1 className="font-black text-[#181718] text-[1.975rem]">
-              ID Jovem
-            </h1>
+            <h1 className="font-black text-[#181718] text-[34px] ">ID Jovem</h1>
           </div>
           <div className="infos flex gap-8 mt-5">
             <div className="foto  w-32 h-36">
@@ -60,7 +58,16 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="qrCode w-28 h-28 bg-white top-0 right-0 absolute mr-7"></div>
+          <div className="qrCode w-28 h-28 bg-[#E4E4E4] top-0 right-0 absolute mr-7 flex items-center justify-center">
+            {" "}
+            <Image
+              width={500}
+              height={500}
+              alt="dada"
+              src={"/qr.png"}
+              className="w-[85%]"
+            />
+          </div>
           <span
             className={` ${inter.className} tracking-wider informacoes text-[9px] font-light text-white pt-2`}
           >
